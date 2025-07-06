@@ -5,7 +5,18 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 ## How to Use
 
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-2. Clone this repository: (or Download the .zip file)
+
+    Visit the official Miniconda download page: https://docs.conda.io/en/latest/miniconda.html
+
+    Choose the appropriate installer for your system:
+
+    Windows: Miniconda3 Windows 64-bit (recommended)
+
+    macOS: Miniconda3 macOS 64-bit or ARM64 (depending on your chip)
+
+    Linux: Miniconda3 Linux 64-bit
+   
+3. Clone this repository: (or Download the .zip file)
 
 
     ```bash
@@ -26,7 +37,7 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 
     Installing OSRA on WSL2 Ubuntu
 
-## Open PowerShell or Command Prompt (CMD) and type:
+## OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
 
     wsl
 
