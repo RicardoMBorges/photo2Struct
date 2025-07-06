@@ -5,12 +5,15 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 ## How to Use
 
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/photo2Struct.git
-   cd photo2Struct
+2. Clone this repository: (or Download the .zip file)
+
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/photo2Struct.git
+    cd photo2Struct
 
     Run run_photo2struct.bat
+
 
 ## Requirements
 
@@ -34,7 +37,7 @@ Update packages:
 
 ### Install OSRA dependencies:
 
-  sudo apt install -y osra
+    sudo apt install -y osra
 
 #### Test if OSRA was installed successfully:
 
