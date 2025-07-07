@@ -4,7 +4,7 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 
 ## How to Use
 
-1. Install [Miniconda]([https://docs.conda.io/en/latest/miniconda.html](https://repo.anaconda.com/miniconda/)) for this file: Miniconda3-py39_25.3.1-1-Windows-x86_64.exe
+1. Install [Miniconda w/ Python 3.9]([https://docs.conda.io/en/latest/miniconda.html](https://repo.anaconda.com/miniconda/)) for this file: Miniconda3-py39_25.3.1-1-Windows-x86_64.exe
 
     Visit the official Miniconda download page: https://docs.conda.io/en/latest/miniconda.html
 
@@ -17,23 +17,16 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
     Linux: Miniconda3 Linux 64-bit
 
 
-#### Even with Anaconda installed (which defaults to Python 3.13), you can manually create a working environment like this:
-
-conda create -n photo2struct_rdkit python=3.9 -y
-conda activate photo2struct_rdkit
-conda install -c conda-forge rdkit streamlit pandas py3Dmol -y
+    ```bash
+    conda create -n photo2struct_rdkit python=3.9 -y
+    conda activate photo2struct_rdkit
+    conda install -c conda-forge rdkit streamlit pandas scikit-learn plotly -y
 
    
-3. Clone this repository: (or Download the .zip file)
+2. Download the .zip file for this repository
 
 
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/photo2Struct.git
-    cd photo2Struct
-
-    Run run_photo2struct.bat
-
-4. OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
+3. OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
 
     wsl
 
@@ -42,14 +35,15 @@ Update packages:
 
     sudo apt update && sudo apt upgrade -y
 
-5. Install OSRA dependencies:
+4. Install OSRA dependencies:
 
     sudo apt install -y osra
 
-5.1 Test if OSRA was installed successfully:
+5. Test if OSRA was installed successfully:
 
     osra --version
 
+If it shows something like OSRA version 2.0.0 (or similar), you're good to go.
 
 ## Requirements
 
@@ -57,12 +51,20 @@ Update packages:
 
     osra installed on WSL2 (Linux)
 
-    sudo apt update
-    sudo apt install osra
-
     Installing OSRA on WSL2 Ubuntu
 
 
-If it shows something like OSRA version 2.0.0 (or similar), you're good to go.
+## To RUN, 
+* Double-Click the file run_photo2struct.bat
 
+* Or (optional), open Anaconda PowerShell Prompt and type:
+  
+      conda activate photo2struct_rdkit
+
+    * Navegate to the repository folder in your computer and:
+
+      ```bash
+      cd "path to your folder"
+      
+      streamlit run photo2struct_pt.py
 
