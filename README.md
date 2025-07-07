@@ -15,6 +15,14 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
     macOS: Miniconda3 macOS 64-bit or ARM64 (depending on your chip)
 
     Linux: Miniconda3 Linux 64-bit
+
+
+#### Even with Anaconda installed (which defaults to Python 3.13), you can manually create a working environment like this:
+
+conda create -n photo2struct_rdkit python=3.9 -y
+conda activate photo2struct_rdkit
+conda install -c conda-forge rdkit streamlit pandas py3Dmol -y
+
    
 3. Clone this repository: (or Download the .zip file)
 
