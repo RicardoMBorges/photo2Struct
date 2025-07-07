@@ -4,7 +4,7 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 
 ## How to Use
 
-1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+1. Install [Miniconda]([https://docs.conda.io/en/latest/miniconda.html](https://repo.anaconda.com/miniconda/)) for this file: Miniconda3-py39_25.3.1-1-Windows-x86_64.exe
 
     Visit the official Miniconda download page: https://docs.conda.io/en/latest/miniconda.html
 
