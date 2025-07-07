@@ -28,6 +28,7 @@ Recognition of chemical structures from images (PNG/JPG), with 2D and 3D visuali
 
 3. OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
 
+    ```bash
     wsl
 
 You will enter the Ubuntu Linux terminal. Now run the following commands:
@@ -37,10 +38,12 @@ Update packages:
 
 4. Install OSRA dependencies:
 
+    ```bash
     sudo apt install -y osra
 
 5. Test if OSRA was installed successfully:
 
+    ```bash
     osra --version
 
 If it shows something like OSRA version 2.0.0 (or similar), you're good to go.
