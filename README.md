@@ -33,6 +33,23 @@ conda install -c conda-forge rdkit streamlit pandas py3Dmol -y
 
     Run run_photo2struct.bat
 
+4. OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
+
+    wsl
+
+You will enter the Ubuntu Linux terminal. Now run the following commands:
+Update packages:
+
+    sudo apt update && sudo apt upgrade -y
+
+5. Install OSRA dependencies:
+
+    sudo apt install -y osra
+
+5.1 Test if OSRA was installed successfully:
+
+    osra --version
+
 
 ## Requirements
 
@@ -45,22 +62,6 @@ conda install -c conda-forge rdkit streamlit pandas py3Dmol -y
 
     Installing OSRA on WSL2 Ubuntu
 
-## OSRA Installation: open PowerShell or Command Prompt (CMD) and type:
-
-    wsl
-
-You will enter the Ubuntu Linux terminal. Now run the following commands:
-Update packages:
-
-    sudo apt update && sudo apt upgrade -y
-
-### Install OSRA dependencies:
-
-    sudo apt install -y osra
-
-#### Test if OSRA was installed successfully:
-
-    osra --version
 
 If it shows something like OSRA version 2.0.0 (or similar), you're good to go.
 
